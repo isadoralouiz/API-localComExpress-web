@@ -1,7 +1,36 @@
-const p1 = require('./package-p1.json');
-const p2 = require('./package-p2.json');
-const p3 = require('./package-p3.json');
-const p4 = require('./package-p4.json');
-const p5 = require('./package-p5.json');
+const sampleData = [
+  {
+    id: "586",
+    nome: "ana luiza",
+    idade: "25",
+    profissao: "Engenheira de Software",
+  },
 
-module.exports = [p1, p2, p3, p4, p5];
+  {
+    id: "585",
+    nome: "isadora",
+    idade: "20",
+    profissao: "pianista/intérprete",
+  },
+
+  {
+    id: "186",
+    nome: "sara",
+    idade: "27",
+    profissao: "Cineasta",
+  },
+
+  {
+    id: "145",
+    nome: "emanuel",
+    idade: "18",
+    profissao: "cozinheiro",
+  },
+
+  {
+    id: "466",
+    nome: "Gabiela",
+    idade: "35",
+    profissao: "gestora",
+  },
+];
